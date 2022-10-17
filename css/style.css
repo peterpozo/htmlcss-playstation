@@ -1,0 +1,197 @@
+/* Sony-bar */
+
+.sony-bar{
+    background-color: black;
+}
+
+.logo img{
+    width: 75px;
+}
+
+/* Nav  */
+
+.dropdown{
+    position:static;
+}
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0;
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu.show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.dot {
+    color: #2d64e6;
+    font-size: 1.5em;
+}
+
+/* Jumbo  */
+
+.jumbotron {
+    background-image: url('../img/jumbo-bg.png');
+    padding: 300px 0 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron .container {
+    position: relative;
+}
+
+.banner-container {
+    height: 45%;
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    color: white;
+}
+
+.banner-container img {
+    width: 200px;
+}
+/* Btn  */
+
+.btn{
+    --bs-btn-border-radius: 1rem;
+    --bs-btn-color: white;
+}
+
+.btn_accedi{
+    background-color: #363636;
+}
+
+.btn_acquista-ora{
+    background-color:#cd3d0f;
+    border-radius: 2rem;
+    padding: .3rem;
+    border: 2px outset transparent;
+}
+
+.btn_playstation-plus{
+    background-color: #d9dadc;
+    color: #3a6de5;
+}
+
+.btn_playstation-now{
+    background-color: #d9dadc;
+    color: #121212;
+}
+/* Slider  */
+
+.console img{
+    width: 100%;
+}
+
+
+.slide:hover {
+    border: 2px solid #519fde;
+    border-radius: 1rem;
+    padding: 0.1rem;
+}
+
+.slide img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.console-play-5 img{
+    width: 100%;
+}
+.console-play-5{
+    opacity: 0.5;
+}
+
+/* PlayStation 5  */
+
+.playstation-5{
+    margin-bottom: 3rem;
+}
+
+.console-play-5:hover{
+    border-bottom: 2px solid #519fde;
+    opacity: 1;
+}
+
+.gioco{
+    background-image: url('../img/it-takes-two-hero-banner-desktop.jpg');
+    padding: 50px 0 50px;
+    background-size: cover;
+    background-position: center;
+}
+.it-takes-two{
+    width: 50%;
+}
+
+.cards-giochi{
+    background-color: #1f1f1f;
+    padding: 1rem 0 4rem;
+}
+
+.playstation-4{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.playstation-plus{
+    background-color: #bebcbb;
+}
+
+.ps-icon{
+    width: 70%;
+}
+
+.playstation-store{
+    margin: 4rem 0 4rem;
+}
+
+.playstation-now{
+    background-color: #161c3b;
+}
+
+.social-media{
+    margin: 5rem 0 5rem;
+}
+
+.social-media img{
+    width: 100%;
+}
+
+@media (min-width: 768px){
+    .g-md-5, .gx-md-5 {
+        --bs-gutter-x: 2rem;
+    }
+    .social-media-icons{
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1200px){
+    .g-md-5, .gx-md-5 {
+        --bs-gutter-x: 5rem;
+    }
+}
+
+footer{
+    padding: 4rem 0;
+    background: #00439c;
+}
+
+.sony-interactive{
+    width: 12rem;
+}
+
+footer ul{
+    list-style-type: none;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white
+}
